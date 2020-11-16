@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*HEADER SECTION---*/
+@import url{'../monserrat-regular.css'}
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+	width: 100%;
+	padding: 30px 0;
+	margin: 20px auto;
+
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	float: left;
+	
+}
+.logo img{
+
+}
+nav
+{
+	width: 80%;
+	float: right;
+	
+}
+nav ul{
+	width: 100%;
+	text-align: right; 
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 40px;
+}
+nav ul li:last-child{
+	padding-right: 0px!important;
+}
+nav ul li a{
+	text-decoration: none;
+	color: gray;
+	font-size: 18px;
+}
+
+
+/*BANNER SECTION---*/
+.banner_section{
+   width: 100%;
+}
+
+.banner_img{
+   width: 100%;
+}
+
+.banner_img img{
+   width: 100%;
+
+}
+/*---ARTICLE SECTION---*/
+
+.article_section{
+	width: 100%;
+    
+}
+.article_1{
+	
+	padding: 30px 10px;
+
+}
+.article_1 span{
+	color: gray;
+	font-size: 1.2em;
+	
+}
+.article_1 h2{
+	color: gray;
+	font-size: 1.9em;
+	margin: 20px 0;
+}
+.article_1 p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin: 20px 0;
+	font-size: 15px;
+
+}
+.article_1 a{
+	text-decoration: none;
+	color: gray;
+	margin: 20px 0;
+}
+.gallary{
+	box-sizing: border-box;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.gallary_box{
+	width: 48%;
+	float: left;
+	padding: 30px
+	margin-left: 20px;
+
+}
+.margin{margin-right: 20px;
+	    
+
+   }	
+.gallary_box img{
+	width: 100%;
+    margin-bottom: 10px;
+}
+img {
+	width: 100%;
+	display: block;
+}
+.gallary_box span{ 
+    color: gray;
+    margin: 30px 0;
+    margin-top: 20px;
+     }
+.gallary_box h2{
+	color: gray;
+	margin: 20px 0;
+}
+.gallary_box p{
+	color: gray;
+	margin: 30px 0;
+	font-size: 15px;
+}
+
+
+.sign_up{
+	width: 100%;
+	height: 80px;
+	background-color: #e4e2e2;
+	text-align: center;
+	padding: 100px 0;
+	}
+.newsletter{
+	
+}
+.newsletter p{
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: black;
+}
+.newsletter input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 22%;
+	padding: 10px;
+}
+
+.button_section{
+	width: 100%;
+    background: white;
+    font-size: 40px;
+    color: #bbbbbb;
+}
+.load
+{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+button{
+	padding: 20px 50px;
+	color: #565555;
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+}
+footer{
+	width: 100%;
+    background: #bbbbbb;
+    padding: 40px 0;
+    display: block;
+}
+.container_box{
+	width: 85%;
+	margin: 0 auto;
+}
+.footer_menu	{
+	width: 50%;
+	float: left;
+	display: block;
+}
+.footer_menu ul{
+   margin: 0;
+   padding: 0;
+}
+.footer_menu ul li{
+	list-style: none;
+	float: left;
+}
+.footer_menu ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.social_menu{
+	width: 50%;
+	display: inline-block;
+}
+.social_menu ul{
+	margin: 0;
+   padding: 0;
+   text-align: right;
+}
+.social_menu ul li {
+	display: inline-block;
+}
+.social_menu ul li span{
+	font-size: 18px;
+	color: black;
+}
+.social_menu ul li a{
+	color: gray;
+	margin-left: 10px;
+}
+.fab{
+	font-family: Font Awesome\ 5 Brands;
+}
